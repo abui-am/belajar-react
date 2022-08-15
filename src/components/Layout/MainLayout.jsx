@@ -10,7 +10,9 @@ const MainLayout = ({ children }) => {
         alignItems: 'center',
       }}
     >
-      <h1>Dengan Layout</h1>
+      <h1 id='title' className='text-title'>
+        Dengan Layout
+      </h1>
       {children}
     </div>
   );
